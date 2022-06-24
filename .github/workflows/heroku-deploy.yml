@@ -1,4 +1,10 @@
 # .github/workflows/heroku-deploy.yml
+name: Node JS application
+
+on:
+  push:
+    branches: [ master ]
+
 jobs:
   heroku-deploy:
     runs-on: ubuntu-latest
